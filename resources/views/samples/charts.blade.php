@@ -97,6 +97,6 @@
     </div>
   </div>
 @endsection
-@section('myscript')
+@section('script')
 	<script src="{{ asset('js/views/charts.js') }}"></script>
 @endsection

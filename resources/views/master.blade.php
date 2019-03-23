@@ -52,7 +52,8 @@
       <!-- Breadcrumb -->
       @include('panel.breadcrumb')
 
-      @yield('content')
+      @yield('content')      
+      
       <!-- /.container-fluid -->
     </main>
 
@@ -63,7 +64,7 @@
   @include('panel.footer')
 
   @include('panel.scripts')
-  @yield('myscript')
+  @yield('script')
 
 </body>
 </html>

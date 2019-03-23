@@ -910,6 +910,6 @@
 
 @endsection
 
-@section('myscript')
+@section('script')
   <script src="{{ asset('js/views/widgets.js') }}"></script>
 @endsection

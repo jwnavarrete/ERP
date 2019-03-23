@@ -877,6 +877,6 @@
 @endsection
 <!-- /.conainer-fluid -->
 
-@section('myscript')
+@section('script')
   <script src="{{ asset('js/views/main.js') }}"></script>
 @endsection

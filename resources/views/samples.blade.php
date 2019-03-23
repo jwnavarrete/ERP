@@ -63,7 +63,7 @@
   @include('core.footer')
 
   @include('core.scripts')
-  @yield('myscript')
+  @yield('script')
 
 </body>
 </html>
