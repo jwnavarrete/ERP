@@ -31,8 +31,8 @@
             <div class="card-group">
                 <div class="card p-4">
                     <div class="card-body">
-                        <h1>Login</h1>
-                        <p class="text-muted">Sign In to your account</p>
+                        <h1>Acceso</h1>
+                        <p class="text-muted">Iniciar Session en su cuenta</p>
                         <form method="POST" action="{{ route('login') }}">
 
                             {{ csrf_field() }}
@@ -48,10 +48,10 @@
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <button type="submit" class="btn btn-primary px-4">Login</button>
+                                    <button type="submit" class="btn btn-primary px-4">Ingresar</button>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <button type="button" class="btn btn-link px-0">Forgot password?</button>
+                                    <button type="button" class="btn btn-link px-0">Olvidaste tu contraseña?</button>
                                 </div>
                             </div>
                         </form>
