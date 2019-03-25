@@ -29,8 +29,17 @@ Route::middleware('auth')->group(function() {
 	Route::view('/sample/icons-font-awesome', 'samples.font-awesome-icons');
 	Route::view('/sample/icons-simple-line', 'samples.simple-line-icons');
 	Route::view('/sample/widgets','samples.widgets');
-	Route::view('/sample/charts','samples.charts');
+	Route::view('/sample/charts','samples.charts');			
+	//
+	Route::view('/empleado','pages.RRHH.mantenimientos.empleado');	
 });
+
+
+
 // Section Pages
 Route::view('/sample/error404','errors.404')->name('error404');
 Route::view('/sample/error500','errors.500')->name('error500');
+Route::apiResource('thoughts', 'ThoughtController');
+
+
+Route::resource('usuarios', 'Seguridad\usuarioController');

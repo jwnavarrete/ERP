@@ -6,4 +6,6 @@
 <!-- Plugins and scripts required by all views -->
 <script src="{{ asset('js/vendor/Chart.min.js') }}"></script>
 <!-- CoreUI main scripts -->
+
 <script src="{{ asset('js/app.js')}}"></script>
+<script src="{{ asset('js/core-app.js')}}"></script>
